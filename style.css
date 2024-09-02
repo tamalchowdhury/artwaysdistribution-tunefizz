@@ -32,3 +32,31 @@ a {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 48px;
+  }
+
+  .subheading {
+    font-size: 18px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
